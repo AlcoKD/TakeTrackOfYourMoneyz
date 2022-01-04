@@ -1,0 +1,142 @@
+div.balance-block {
+	margin-top: 2rem;
+	width: 45%;
+	height: 45vh;
+	display: flex;
+	justify-content: center;
+}
+
+div.balance-container {
+	width: 90%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 15px;
+}
+
+div.balance-header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+h3.balance {
+	font-size: 1.4rem;
+}
+
+div.import-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 1rem;
+}
+
+div.balance-image {
+	width: 15%;
+	font-size: 5rem;
+}
+
+div.balance-amount {
+	width: 60%;
+}
+
+p.balance {
+	font-size: 2.5rem;
+	text-align: center;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 15px;
+    overflow-x: scroll;
+}
+
+p.balance::-webkit-scrollbar {
+	background-color: rgba(210, 230, 0, 0.3);
+	border-radius: 30px;
+	height: 0.4rem;
+}
+
+p.balance::-webkit-scrollbar-thumb{
+	background-color: rgba(230, 230, 0, 0.7);
+}
+
+
+@media only screen and (max-width: 960px) {
+
+	div.balance-block{
+		width: 100%;
+		border-top: 1px solid yellow;
+	}
+
+	div.balance-container {
+		height: 80%;
+		width: 100%;
+	}
+
+	h3.balance {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		top: 20%;
+		font-size: 1.7rem;
+		border-bottom: 1px solid yellow;
+		background: rgba(233, 210, 0, 0.8);
+		border-radius: 10px;
+	}
+
+
+	div.balance-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#FAI-euro {
+		font-size: 3rem;
+	}
+
+	div.balance-amount {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	div.balance-container {
+		height: 60%;
+	}
+
+	h3.balance {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		top: 20%;
+		font-size: 1.5rem;
+		border-bottom: 1px solid yellow;
+		background: rgba(233, 210, 0, 0.8);
+		border-radius: 10px;
+	}
+
+	div.balance-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#FAI-euro {
+		font-size: 2rem;
+	}
+
+	div.balance-amount {
+		width: 40%;
+	}
+
+	p.balance {
+		font-size: 1.5rem;
+	}
+}

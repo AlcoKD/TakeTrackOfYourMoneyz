@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Login from './form/login';
+import Register from './form/register';
+import Header from './Components/Header';
+import User from './Components/User';
+import Balance from './Components/Balance';
+import Records from './Components/Record';
+import Info from './Components/Info';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      route: 'login',
+    }
+  }
+
+  onRouteChange = (route) => {
+    this.setState({route:route});
+  } 
+
+  render(){
+     return (
+        <div className="App">
+         { this.state.route === 'home' 
+          ? <div>
+             <Header />
+              <div className='container-flex'>
+               <User onRouteChange={this.onRouteChange} />
+                <Balance />
+            </div>
+                <Records />
+                 <Info /> 
+            </div>
+          : (
+              this.state.route === 'login' 
+              ? <Login onRouteChange={this.onRouteChange} />
+              : <Register onRouteChange={this.onRouteChange} />
+            )        
+          }
+        </div>
+    
+  )};
+
+ }
 
 export default App;
