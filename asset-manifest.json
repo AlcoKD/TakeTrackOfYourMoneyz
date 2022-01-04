@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TakeTrackOfYourMoneyz/static/css/main.9c924a6d.chunk.css",
-    "main.js": "/TakeTrackOfYourMoneyz/static/js/main.f7d2c6a6.chunk.js",
-    "main.js.map": "/TakeTrackOfYourMoneyz/static/js/main.f7d2c6a6.chunk.js.map",
-    "runtime-main.js": "/TakeTrackOfYourMoneyz/static/js/runtime-main.594a05a9.js",
-    "runtime-main.js.map": "/TakeTrackOfYourMoneyz/static/js/runtime-main.594a05a9.js.map",
-    "static/js/2.7e460b66.chunk.js": "/TakeTrackOfYourMoneyz/static/js/2.7e460b66.chunk.js",
-    "static/js/2.7e460b66.chunk.js.map": "/TakeTrackOfYourMoneyz/static/js/2.7e460b66.chunk.js.map",
-    "static/js/3.e86c2d4f.chunk.js": "/TakeTrackOfYourMoneyz/static/js/3.e86c2d4f.chunk.js",
-    "static/js/3.e86c2d4f.chunk.js.map": "/TakeTrackOfYourMoneyz/static/js/3.e86c2d4f.chunk.js.map",
+    "main.css": "/TakeTrackOfYourMoneyz/static/css/main.7e6dd782.chunk.css",
+    "main.js": "/TakeTrackOfYourMoneyz/static/js/main.0eca2dba.chunk.js",
+    "main.js.map": "/TakeTrackOfYourMoneyz/static/js/main.0eca2dba.chunk.js.map",
+    "runtime-main.js": "/TakeTrackOfYourMoneyz/static/js/runtime-main.0eea90df.js",
+    "runtime-main.js.map": "/TakeTrackOfYourMoneyz/static/js/runtime-main.0eea90df.js.map",
+    "static/js/2.a0b0251b.chunk.js": "/TakeTrackOfYourMoneyz/static/js/2.a0b0251b.chunk.js",
+    "static/js/2.a0b0251b.chunk.js.map": "/TakeTrackOfYourMoneyz/static/js/2.a0b0251b.chunk.js.map",
+    "static/js/3.4f44f049.chunk.js": "/TakeTrackOfYourMoneyz/static/js/3.4f44f049.chunk.js",
+    "static/js/3.4f44f049.chunk.js.map": "/TakeTrackOfYourMoneyz/static/js/3.4f44f049.chunk.js.map",
     "index.html": "/TakeTrackOfYourMoneyz/index.html",
-    "static/css/main.9c924a6d.chunk.css.map": "/TakeTrackOfYourMoneyz/static/css/main.9c924a6d.chunk.css.map",
-    "static/js/2.7e460b66.chunk.js.LICENSE.txt": "/TakeTrackOfYourMoneyz/static/js/2.7e460b66.chunk.js.LICENSE.txt"
+    "static/css/main.7e6dd782.chunk.css.map": "/TakeTrackOfYourMoneyz/static/css/main.7e6dd782.chunk.css.map",
+    "static/js/2.a0b0251b.chunk.js.LICENSE.txt": "/TakeTrackOfYourMoneyz/static/js/2.a0b0251b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.594a05a9.js",
-    "static/js/2.7e460b66.chunk.js",
-    "static/css/main.9c924a6d.chunk.css",
-    "static/js/main.f7d2c6a6.chunk.js"
+    "static/js/runtime-main.0eea90df.js",
+    "static/js/2.a0b0251b.chunk.js",
+    "static/css/main.7e6dd782.chunk.css",
+    "static/js/main.0eca2dba.chunk.js"
   ]
 }
